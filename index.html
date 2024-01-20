@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DaisyUi Project</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
 <body class="font-poppins">
     <header class="md:container  md:mx-auto md:px-16">
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar shadow-xl lg:px-6 lg:mt-5 sm:mt-3 bg-base-100">
                 <div class="flex-1">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@
                       <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-4xl">Biker Zone</a>
+                  <a class="btn btn-ghost text-3xl lg:text-4xl">Biker Zone</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu text-base menu-horizontal px-1">
@@ -42,16 +42,16 @@
                   </ul>
                 </div>
                 <div class="">
-                  <a class="btn btn-error text-white">Button</a>
+                  <a class="btn btn-error px-7 py-3 text-white">Button</a>
                 </div>
               </div>
         </nav>
         <!-- slider-carosal -->
-        <div class="carousel w-full bg-orange-300">
+        <div class="carousel my-10 w-full rounded-lg bg-orange-300">
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="flex h-auto px-24 py-12 items-center">
-                    <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">
+                <div class="flex  flex-col lg:flex-row h-auto px-8 lg:px-24  py-6 lg:py-12 items-center">
+                    <div class="lg:space-y-7 space-y-4 flex-1">
+                        <h2 class="text-2xl lg:text-6xl font-bold">
                             Ride-on R15 V4 <br> With Smile
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse sit culpa ullam itaque, nemo laboriosam accusantium officiis ut quidem!</p>
@@ -67,9 +67,9 @@
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="flex h-auto px-24 py-12 items-center">
-                    <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">
+                <div class="flex  flex-col lg:flex-row h-auto px-8 lg:px-24  py-6 lg:py-12 items-center">
+                    <div class="lg:space-y-7 space-y-4 flex-1">
+                        <h2 class="text-2xl lg:text-6xl font-bold">
                             Ride-on R15 V4 <br> With Smile
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse sit culpa ullam itaque, nemo laboriosam accusantium officiis ut quidem!</p>
@@ -85,9 +85,9 @@
               </div>
             </div> 
             <div id="slide3" class="carousel-item relative w-full">
-              <div class="flex h-auto px-24 py-12 items-center">
-                <div class="space-y-7 flex-1">
-                    <h2 class="text-6xl font-bold">
+              <div class="flex  flex-col lg:flex-row h-auto px-8 lg:px-24  py-6 lg:py-12 items-center">
+                <div class="lg:space-y-7 space-y-4 flex-1">
+                    <h2 class="text-2xl lg:text-6xl font-bold">
                         Ride-on R15 V4 <br> With Smile
                     </h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse sit culpa ullam itaque, nemo laboriosam accusantium officiis ut quidem!</p>
@@ -103,9 +103,9 @@
               </div>
             </div> 
             <div id="slide4" class="carousel-item relative w-full">
-                <div class="flex h-auto px-24 py-12 items-center">
-                    <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">
+                <div class="flex  flex-col lg:flex-row h-auto px-8 lg:px-24  py-6 lg:py-12 items-center">
+                    <div class="lg:space-y-7 space-y-4 flex-1">
+                        <h2 class="text-2xl lg:text-6xl font-bold">
                             Ride-on R15 V4 <br> With Smile
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis esse sit culpa ullam itaque, nemo laboriosam accusantium officiis ut quidem!</p>
@@ -122,8 +122,66 @@
             </div>
           </div>
     </header>
-    <main class="md:container  md:mx-auto md:px-16"> 
-
+    <main class="md:container  md:mx-auto md:px-16">
+      <!-- fechard-bike-start -->
+      <section>
+        <div>
+          <h1 class="lg:text-5xl text-4xl px-6 font-semibold lg:mt-6 text-center">Fetured Bikes In This Year</h1>
+          <p class="text-2xl font-semibold text-center text-orange-500">Best bike collection</p>
+          <div class="flex flex-col lg:flex-row px-6 sm:px-6 justify-between my-24">
+            <img src="images/others/feature-bike.png" alt="">
+            <img src="images/others/feature-bike.png" alt="">
+            <img src="images/others/feature-bike.png" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- fechard-bike-end -->
+      <!-- latest-bike-start -->
+      <section>
+        <h3 class="font-semibold text-5xl mb-14 text-center">Latest Bikes</h3>
+        <div class="flex flex-col lg:flex-row px-2 sm:px-6 gap-5">
+          <!-- first-card-start -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images//others/latest1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title mb-3 text-2xl">Ducati XDIAVEL S-73</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Lacus, fermentum amet 
+                faucibus sed id nisi lectus at.</p>
+              <div class="card-actions justify-start mt-6">
+                <button class="btn btn-primary px-8">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- first-card-end -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images//others/latest1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title mb-3 text-2xl">Motorcycles & Scooters</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Lacus, fermentum amet 
+                faucibus sed id nisi lectus at.</p>
+              <div class="card-actions justify-start mt-6">
+                <button class="btn btn-primary px-8">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- thard-bike-start -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images//others/latest1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title mb-3 text-2xl">2021 Honda CBR500R</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Lacus, fermentum amet 
+                faucibus sed id nisi lectus at.</p>
+              <div class="card-actions justify-start mt-6">
+                <button class="btn btn-primary px-8">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- latest-bike-end -->
     </main>
     <footer></footer>
 </body>
